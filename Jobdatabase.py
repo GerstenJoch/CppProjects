@@ -11,6 +11,7 @@ g = 0
 h = 0
 x = [1,2,3,4,5,6,7,8] #"Male", "Female", "Genderfluid", "Polygender", "Agender", "Genderqueer", "Non-binary", "Bigender"
 try:
+    #w
     connection = psycopg2.connect(user="postgres",
                                   password="P@ssW0rd69",
                                   host="localhost",
